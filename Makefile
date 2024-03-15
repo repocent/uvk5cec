@@ -216,12 +216,12 @@ SIZE = arm-none-eabi-size
 
 # CHANGE AUTHOR
 #It is only used to specify the source code and is no longer used (it is not compiled).
-AUTHOR_STRING ?= KD8CEC_FROM_SOURCE_CODE_EGZUMER
+AUTHOR_STRING ?= SBAITSO_FROM_SOURCE_CODE_EGZUMER
 # the user might not have/want git installed
 # can set own version string here (max 7 chars)
 
 # CHANGE VERSION TYPE
-VERSION_STRING ?= CEC_0.1c
+VERSION_STRING ?= v0.9.10
 
 
 ASFLAGS = -c -mcpu=cortex-m0
